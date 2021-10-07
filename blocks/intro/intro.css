@@ -8,20 +8,17 @@
     .intro{
         margin: 88px auto;
         max-width: 720px;
-        border: blue solid 2px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .intro{
         max-width: 928px;
-        border: green solid 2px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro{
         max-width: 984px;
-        border: red solid 2px;
     }
 }
