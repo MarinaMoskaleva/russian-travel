@@ -3,18 +3,23 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin: 48px auto 0;
+}
+
+@media screen and (min-width: 320px) {
+    .lead{
+        width: 320px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .lead{
-        margin: 48px auto 0;
         width: 768px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .lead{
-        margin: 48px auto 0;
         width: 928px;
     }
 }
