@@ -1,0 +1,19 @@
+.place__paragraphs{
+  display: flex;
+  flex-direction: column;
+}
+.place__paragraph:last-child{
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraphs {
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraphs {
+    max-width: 484px;
+  }
+}
