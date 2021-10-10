@@ -1,15 +1,18 @@
 .footer__links {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  gap: 18px;
 }
+
 
 @media screen and (max-width: 767px) {
   .footer__links {
     flex-direction: column;
-    justify-content: flex-start;
+    gap: 32px;
     margin-bottom: 48px;
   }
 }

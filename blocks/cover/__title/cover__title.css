@@ -11,6 +11,10 @@
     margin-bottom: 32px;
 }
 
+.cover__title:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
     .cover__title{
         font-size: 32px;

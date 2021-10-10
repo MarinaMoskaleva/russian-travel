@@ -6,7 +6,6 @@
     text-decoration: none;
     font-size: 16px;
     line-height: 18px;
-    margin-right: 18px;
     opacity: 1;
     transition: opacity 0.6s linear;
 }
@@ -15,18 +14,9 @@
     opacity: 0.6;
 }
 
-.footer__link:last-of-type {
-    margin-right: 0;
-}
-
 @media screen and (max-width: 767px) {
     .footer__link {
-        margin-right: 0;
         font-size: 24px;
         line-height: 24px;
-        margin-bottom: 32px;
-    }
-    .footer__link:last-of-type {
-        margin-bottom: 0;
     }
   }

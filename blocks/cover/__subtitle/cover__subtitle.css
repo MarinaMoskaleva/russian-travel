@@ -9,6 +9,9 @@
     line-height: 22px;
     max-width: 360px;
 }
+.cover__subtitle:hover {
+    cursor: pointer;
+}
 
 @media screen and (max-width: 767px) {
     .cover__subtitle{

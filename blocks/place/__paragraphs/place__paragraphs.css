@@ -3,9 +3,6 @@
   flex-direction: column;
   margin: 0;
 }
-.place__paragraph:last-child{
-  margin-bottom: 0;
-}
 
 @media screen and (max-width: 767px) {
   .place__paragraphs{
